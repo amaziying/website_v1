@@ -36,11 +36,11 @@ section1.find('span').hide().each(function() {
 });
 
 section1.show().find('span').each(function(i) {
-    $(this).delay(1000 * i).fadeIn(600);
+    $(this).delay(600 * i).fadeIn(600);
 });
 
 var button1 = $('#btn-anim');
 button1.hide();
-button1.delay(8000).fadeIn(600);
+button1.delay(4800).fadeIn(600);
 
 });
