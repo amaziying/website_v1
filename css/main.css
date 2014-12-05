@@ -3,10 +3,29 @@ html, body{
 }
 
 body {
-		background:url('../img/cartoonsky.jpg') no-repeat center center fixed;
-	background-size:cover;
-	font-family: 'Ubuntu', Calibri, sans-serif;
-	
+	background:url('../img/cartoonsky.jpg') no-repeat center center fixed;
+	background-size: cover;
+	font-family: 'Ubuntu', 'Calibri', sans-serif;
+}
+
+#loading-spinner {
+ 	position: fixed;
+ 	height: 100%;
+ 	width: 100%;
+ 	z-index: 9999;
+    top:0;
+    left:0;
+    margin: auto;
+    background: #FFFFFF;
+}
+
+#loading-spinner-image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
 }
 
 .center {
@@ -23,6 +42,10 @@ body {
 
 .fullheight{
 	height:100%;
+}
+
+.fancy-font {
+	font-family: 'Courgette';
 }
 
 h1 {
