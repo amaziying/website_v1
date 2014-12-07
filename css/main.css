@@ -76,13 +76,11 @@ h3 {
 
 .col-xs-2 img:hover {
     opacity:1;
-	
 	-webkit-transition: opacity .2s;
--moz-transition: opacity .2s;
--ms-transition: opacity .2s;
--o-transition: opacity .2s;
-transition: opacity .2s;
-
+	-moz-transition: opacity .2s;
+	-ms-transition: opacity .2s;
+	-o-transition: opacity .2s;
+	transition: opacity .2s;
 }
 
 .col-md-6 p a {
@@ -98,12 +96,11 @@ h1 a{
 }
 
 h1 a:hover{
-	font-weight:bold;
-	text-decoration:none;
 	color:#760707;
-	-webkit-transition: font-weight .2s, text-decoration .2s, color .2s;
--moz-transition: font-weight .2s, text-decoration .2s, color .2s;
--ms-transition: font-weight .2s, text-decoration .2s, color .2s;
--o-transition: font-weight .2s, text-decoration .2s, color .2s;
-transition: font-weight .2s, text-decoration .2s, color .2s;
+	text-decoration: none;
+	-webkit-transition: color .2s;
+	-moz-transition: color .2s;
+	-ms-transition: color .2s;
+	-o-transition: color .2s;
+	transition: color .2s;
 }
